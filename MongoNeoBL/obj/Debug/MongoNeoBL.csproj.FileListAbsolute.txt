@@ -1,0 +1,5 @@
+C:\Users\ido\Desktop\NeoMongoDAL\MongoNeoBL\bin\Debug\MongoNeoBL.dll
+C:\Users\ido\Desktop\NeoMongoDAL\MongoNeoBL\bin\Debug\MongoNeoBL.pdb
+C:\Users\ido\Desktop\NeoMongoDAL\MongoNeoBL\obj\Debug\MongoNeoBL.dll
+C:\Users\ido\Desktop\NeoMongoDAL\MongoNeoBL\obj\Debug\MongoNeoBL.pdb
+C:\Users\ido\Desktop\NeoMongoDAL\MongoNeoBL\obj\Debug\MongoNeoBL.csprojResolveAssemblyReference.cache

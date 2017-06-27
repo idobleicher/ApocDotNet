@@ -1,0 +1,52 @@
+﻿<div class="root">
+        <h1 style="margin-bottom:3%">Edit & Craft new Objects</h1>
+        <div id="container" class="col-md-2">
+            <h1> Mongo-Collections</h1>
+            <ul id="todoList">
+                <div ng-repeat="(key, value) in mongoTable.data">
+                    <li ng-click="LoadMongoTable(key)"><span><i class="fa fa-trash" ng-click=""></i></span>{{key}} : ({{value}})</li>
+                </div>
+            </ul>
+
+            <h1> Neo-Labels</h1>
+            <ul id="todoList">
+                <div ng-repeat="(keyo, valueo) in neoTable.data">
+                    <li ng-click="LoadNeoTable(keyo)"><span><i class="fa fa-trash"></i></span>{{keyo}} : ({{valueo}})</li>
+                </div>
+            </ul>
+        </div>
+        <div class="col-md-6" style="margin-left:8%">
+            <h1>Data From Mongo Table:</h1>
+            <table class="table table-list-search" id="tblUsers">
+                <thead>
+                    <tr>
+                    <th>ObjectId</th>
+                    <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody id="jqusery">
+                    <tr ng-repeat="data in mongoTableData.data track by data._id">
+                    <td>{{data._id}}</td>
+                    <td>{{data.name}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-6" style="margin-left:8%">
+            <h1>Data From Neo Table:</h1>
+            <table class="table table-list-search" id="tblUsers">
+                <thead>
+                    <tr>
+                        <th>ObjectId</th>
+                        <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody id="jqusery">
+                    <tr ng-repeat="data in neoTableData.data track by data._id">
+                        <td>{{data._id}}</td>
+                        <td>{{data.name}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+</div>

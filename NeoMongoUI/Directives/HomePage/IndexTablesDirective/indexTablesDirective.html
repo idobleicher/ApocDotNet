@@ -1,0 +1,19 @@
+﻿<div class="container">
+    <h3 style="margin-left:8%">Data From Table:</h3>
+    <div class="col-md-6" style="margin-left:8%">
+        <table class="table table-list-search" id="tblUsers">
+            <thead>
+                <tr>
+                    <th>ObjectId</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody id="jqusery">
+                <tr ng-repeat="data in tabelsData track by $index">
+                    <td>{{data._id}}</td>
+                    <td>{{data.name}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

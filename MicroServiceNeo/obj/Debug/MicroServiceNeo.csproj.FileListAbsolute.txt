@@ -1,0 +1,1 @@
+C:\Users\ido\Desktop\Programming\NeoMongoDAL\MicroServiceNeo\obj\Debug\MicroServiceNeo.csprojResolveAssemblyReference.cache
